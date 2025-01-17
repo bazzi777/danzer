@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import View3 from './View3'
 import Add2 from './Add2'
+import Home from './components/Home'
 
 
 
@@ -16,10 +17,8 @@ function App() {
 
   return (
     <>
-    <br></br><br></br><br></br><br></br>
- <h1>WAVIN FREAKZ</h1>
- <i>Move your body to shine</i><br></br><br></br>
-     <img src="https://i.pinimg.com/originals/78/3e/ed/783eedce88f5e97e7f24418a9979c417.jpg" height="600px" width="400px"/>
+
+<br></br>
       
  
       <Navbar></Navbar>
@@ -28,7 +27,7 @@ function App() {
      
         
       <Routes>
-       
+      <Route path="/" element={<Home/>}/>
         <Route path="/add" element={<Add2/>}/>
         <Route path="/ss" element={<View3/>}/>
           
