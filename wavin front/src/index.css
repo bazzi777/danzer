@@ -1,0 +1,11 @@
+#root{
+    background-image: linear-gradient(rgb(255, 238, 3),rgb(186, 30, 30));
+    box-shadow: 0px 0px 10px #0005;
+    min-height: 100vh;
+}
+    
+body{
+    background-image: linear-gradient(rgb(255, 238, 3),rgb(186, 30, 30));
+    background-repeat: no-repeat;
+}
+
