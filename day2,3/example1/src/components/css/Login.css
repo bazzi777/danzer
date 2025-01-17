@@ -1,0 +1,14 @@
+
+*{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+.container{
+    padding: 20px 30px;
+}
+.bottom-ask{
+    display: flex;
+    width: 100vw;
+    gap: 10px;
+}
